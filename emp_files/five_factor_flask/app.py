@@ -93,9 +93,9 @@ def index():
 
 @app.route('/submit', methods=['POST'])
 def submit():
-    # Kullanıcı yanıtlarını al ve puanları hesapla
     toplam_puanlar = {}
     raw_data = {}
+
     for faktor, bilgiler in faktorler.items():
         sorular = bilgiler["sorular"]
         ters_sorular = bilgiler["ters_sorular"]
@@ -108,7 +108,7 @@ def submit():
             if i in ters_sorular:
                 yanit = ters_puanlama(yanit)
             puanlar.append(yanit)
-        
+
         toplam_puanlar[faktor] = sum(puanlar)
         raw_data[faktor] = yanitlar
 
@@ -116,7 +116,9 @@ def submit():
     with open("ham_veriler.json", "w") as file:
         json.dump(raw_data, file, indent=4)
 
-    return render_template('result.html', puanlar=toplam_puanlar)
+    # Analizleri hesapla ve yeni template'e render et
+    yorumlar = detayli_analiz(toplam_puanlar)
+    return render_template('analysis.html', yorumlar=yorumlar)
 
 @app.route('/ham_veri')
 def ham_veri():
@@ -128,6 +130,28 @@ def ham_veri():
         return "Henüz ham veri kaydedilmedi."
 
 @app.route('/analiz')
+def analiz():
+    try:
+        with open("ham_veriler.json", "r") as file:
+            raw_data = json.load(file)
+
+        # Toplam puanları yeniden hesapla
+        toplam_puanlar = {}
+        for faktor, yanitlar in raw_data.items():
+            puanlar = []
+            ters_sorular = faktorler[faktor]["ters_sorular"]
+            for i, yanit in enumerate(yanitlar.values(), 1):
+                if i in ters_sorular:
+                    yanit = ters_puanlama(yanit)
+                puanlar.append(yanit)
+            toplam_puanlar[faktor] = sum(puanlar)
+
+        yorumlar = detayli_analiz(toplam_puanlar)
+        return render_template('analysis.html', yorumlar=yorumlar)
+
+    except FileNotFoundError:
+        return "Henüz ham veri kaydedilmedi."
+
 def detayli_analiz(puanlar):
     yorumlar = {}
     for faktor, puan in puanlar.items():
@@ -171,11 +195,7 @@ def detayli_analiz(puanlar):
             else:
                 yorumlar[faktor] = "Daha geleneksel bir yapınız var. Yeniliklere adapte olmakta zorlanabilirsiniz, ancak bu sizi derinlemesine uzmanlaşmaya yönlendirebilir."
 
-        else:
-            yorumlar[faktor] = f"{faktor} için detaylı analiz henüz eklenmedi."
-
     return yorumlar
-
 
 if __name__ == '__main__':
     app.run(debug=True)
