@@ -8,76 +8,76 @@ def utility_processor():
 faktorler = {
             "Dışadönüklük": {
                 "sorular": [
-                    "1. İnsanlarla konuşmayı severim.",
-                    "2. Kalabalık gruplarda kendimi rahat hissederim.",
-                    "3. Çevremdekilere enerji veren bir yapım vardır.",
-                    "4. Eğlenceli ve keyifli biri olarak tanınırım.",
-                    "5. Sosyal etkinliklere katılmayı tercih ederim.",
-                    "6. Yeni insanlarla tanışmayı kolay bulurum.",
-                    "7. Yalnız kalmayı tercih ederim.",  # Ters
-                    "8. İletişim kurarken kendimi ifade etmekte zorlanırım.",  # Ters
-                    "9. Göz önünde olmaktan hoşlanırım.",
-                    "10. Konuşmalarımı enerjik bir şekilde sürdürürüm."
+                    "İnsanlarla konuşmayı severim.",
+                    "Kalabalık gruplarda kendimi rahat hissederim.",
+                    "Çevremdekilere enerji veren bir yapım vardır.",
+                    "Eğlenceli ve keyifli biri olarak tanınırım.",
+                    "Sosyal etkinliklere katılmayı tercih ederim.",
+                    "Yeni insanlarla tanışmayı kolay bulurum.",
+                    "Yalnız kalmayı tercih ederim.",  # Ters
+                    "İletişim kurarken kendimi ifade etmekte zorlanırım.",  # Ters
+                    "Göz önünde olmaktan hoşlanırım.",
+                    "Konuşmalarımı enerjik bir şekilde sürdürürüm."
                 ],
                 "ters_sorular": [7, 8]
             },
             "Uyumluluk": {
                 "sorular": [
-                    "11. İnsanlara yardım etmekten keyif alırım.",
-                    "12. Çoğu zaman başkalarının ihtiyaçlarını kendi ihtiyaçlarımın önüne koyarım.",
-                    "13. İnsanlar beni güvenilir biri olarak görür.",
-                    "14. İş arkadaşlarıma destek vermekten mutluluk duyarım.",
-                    "15. Başkalarının duygularını anlama konusunda iyiyimdir.",
-                    "16. Çatışmalardan kaçınmaya çalışırım.",
-                    "17. Karşımdakine empatiyle yaklaşırım.",
-                    "18. Kendi fikirlerimi savunma konusunda ısrarcıyımdır.",  # Ters
-                    "19. İnsanların ihtiyaçlarını dikkate alırım.",
-                    "20. Beni zorlasa bile işbirliği yaparım."
+                    "İnsanlara yardım etmekten keyif alırım.",
+                    "Çoğu zaman başkalarının ihtiyaçlarını kendi ihtiyaçlarımın önüne koyarım.",
+                    "İnsanlar beni güvenilir biri olarak görür.",
+                    "İş arkadaşlarıma destek vermekten mutluluk duyarım.",
+                    "Başkalarının duygularını anlama konusunda iyiyimdir.",
+                    "Çatışmalardan kaçınmaya çalışırım.",
+                    "Karşımdakine empatiyle yaklaşırım.",
+                    "Kendi fikirlerimi savunma konusunda ısrarcıyımdır.",  # Ters
+                    "İnsanların ihtiyaçlarını dikkate alırım.",
+                    "Beni zorlasa bile işbirliği yaparım."
                 ],
                 "ters_sorular": [18]
             },
             "Özdenetim": {
                 "sorular": [
-                    "21. İşlerimi düzenli bir şekilde yürütürüm.",
-                    "22. Uzun vadeli hedeflerime sadık kalırım.",
-                    "23. Zamanımı iyi yönetebilirim.",
-                    "24. Plan yapmadan çalışmayı tercih ederim.",  # Ters
-                    "25. Sorumluluk almayı severim.",
-                    "26. Görevlerimi zamanında tamamlarım.",
-                    "27. Ertelemeyi alışkanlık haline getiririm.",  # Ters
-                    "28. Çalışma ortamımı organize ederim.",
-                    "29. Disiplinli bir şekilde çalışırım.",
-                    "30. Beklenmedik durumlarda planlarımı değiştirmekte zorlanırım."
+                    "İşlerimi düzenli bir şekilde yürütürüm.",
+                    "Uzun vadeli hedeflerime sadık kalırım.",
+                    "Zamanımı iyi yönetebilirim.",
+                    "Plan yapmadan çalışmayı tercih ederim.",  # Ters
+                    "Sorumluluk almayı severim.",
+                    "Görevlerimi zamanında tamamlarım.",
+                    "Ertelemeyi alışkanlık haline getiririm.",  # Ters
+                    "Çalışma ortamımı organize ederim.",
+                    "Disiplinli bir şekilde çalışırım.",
+                    "Beklenmedik durumlarda planlarımı değiştirmekte zorlanırım."
                 ],
                 "ters_sorular": [24, 27]
             },
             "Nörotiklik": {
                 "sorular": [
-                    "31. Stresli durumlarda kolayca kaygılanırım.",
-                    "32. Duygusal dalgalanmalar yaşarım.",
-                    "33. Kritik anlarda sakin kalmakta zorlanırım.",
-                    "34. Çabuk sinirlenirim.",
-                    "35. Küçük sorunlar beni strese sokar.",
-                    "36. Belirsizlikten hoşlanmam.",
-                    "37. Zor durumlarla baş etmekte zorlanırım.",
-                    "38. Hayal kırıklığına uğradığımda sakin kalırım.",  # Ters
-                    "39. Kendime güvenim tamdır.",  # Ters
-                    "40. Kaygılı bir yapıya sahibim."
+                    "Stresli durumlarda kolayca kaygılanırım.",
+                    "Duygusal dalgalanmalar yaşarım.",
+                    "Kritik anlarda sakin kalmakta zorlanırım.",
+                    "Çabuk sinirlenirim.",
+                    "Küçük sorunlar beni strese sokar.",
+                    "Belirsizlikten hoşlanmam.",
+                    "Zor durumlarla baş etmekte zorlanırım.",
+                    "Hayal kırıklığına uğradığımda sakin kalırım.",  # Ters
+                    "Kendime güvenim tamdır.",  # Ters
+                    "Kaygılı bir yapıya sahibim."
                 ],
                 "ters_sorular": [38, 39]
             },
             "Deneyime Açıklık": {
                 "sorular": [
-                    "41. Yeni fikirleri ve değişiklikleri kucaklarım.",
-                    "42. Farklı kültürlerden insanlar ve gelenekler beni etkiler.",
-                    "43. Sanat, müzik ve edebiyat gibi alanlarda yeniliklere açık biriyimdir.",
-                    "44. Hayal gücümü kullanmayı severim.",
-                    "45. Merak duygum yüksektir.",
-                    "46. Rutin işler beni sıkar.",
-                    "47. Yaratıcı aktivitelerden keyif alırım.",
-                    "48. Farklı bakış açılarını anlamaya çalışırım.",
-                    "49. Yenilikleri hayatıma adapte etmekte zorlanırım.",  # Ters
-                    "50. Teknolojik yenilikleri takip ederim."
+                    "Yeni fikirleri ve değişiklikleri kucaklarım.",
+                    "Farklı kültürlerden insanlar ve gelenekler beni etkiler.",
+                    "Sanat, müzik ve edebiyat gibi alanlarda yeniliklere açık biriyimdir.",
+                    "Hayal gücümü kullanmayı severim.",
+                    "Merak duygum yüksektir.",
+                    "Rutin işler beni sıkar.",
+                    "Yaratıcı aktivitelerden keyif alırım.",
+                    "Farklı bakış açılarını anlamaya çalışırım.",
+                    "Yenilikleri hayatıma adapte etmekte zorlanırım.",  # Ters
+                    "Teknolojik yenilikleri takip ederim."
                 ],
                 "ters_sorular": [49]
             }
