@@ -108,6 +108,16 @@ class BesFaktorKisilikOlcegi:
             toplam_puanlar[faktor] = self.yanitlari_al(faktor)
         return toplam_puanlar
 
+    def analiz_ve_cikti(self, puanlar):
+        print("\nAnaliz ve Öneriler:")
+        for faktor, puan in puanlar.items():
+            print(f"\n{faktor} Puanı: {puan}/50")
+            if puan >= 40:
+                print("→ Güçlü bir yön!")
+            elif 30 <= puan < 40:
+                print("→ Orta düzeyde bir yetkinlik.")
+            else:
+                print("→ Gelişim alanı mevcut.")
 
 # Ana kod
 if __name__ == "__main__":
@@ -116,3 +126,4 @@ if __name__ == "__main__":
     print("\nBeş Faktör Kişilik Ölçeği Sonuçları:")
     for faktor, puan in sonuc.items():
         print(f"{faktor}: {puan}/50")
+    test.analiz_ve_cikti(sonuc)
