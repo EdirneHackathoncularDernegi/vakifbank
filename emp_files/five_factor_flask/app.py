@@ -112,11 +112,10 @@ def submit():
         toplam_puanlar[faktor] = sum(puanlar)
         raw_data[faktor] = yanitlar
 
-    # Ham veriyi kaydet
+
     with open("ham_veriler.json", "w") as file:
         json.dump(raw_data, file, indent=4)
-
-    # Analizleri hesapla ve yeni template'e render et
+        
     yorumlar = detayli_analiz(toplam_puanlar)
     return render_template('analysis.html', yorumlar=yorumlar)
 
