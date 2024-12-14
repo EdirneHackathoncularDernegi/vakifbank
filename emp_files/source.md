@@ -1,0 +1,1 @@
+source of the FiveFactor.py = ./documents/Beş Faktör Kişilik Ölçeğinin Türk Kültürüne Uyarlanması.pdf
