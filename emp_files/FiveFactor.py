@@ -82,15 +82,24 @@ class BesFaktorKisilikOlcegi:
         return 6 - puan
 
     def yanitlari_al(self, faktor):
-        sorular = self.faktorler[faktor]["sorular"]
         ters_sorular = self.faktorler[faktor]["ters_sorular"]
+        sorular = self.faktorler[faktor]["sorular"]
         puanlar = []
+
         print(f"\nFaktör: {faktor}")
+
         for i, soru in enumerate(sorular, 1):
-            yanit = int(input(f"{soru} (1-5): "))
-            if i in ters_sorular:
-                yanit = self.ters_puanlama(yanit)
-            puanlar.append(yanit)
+            while True:
+                try:
+                    yanit = int(input(f"{soru} (1-5): "))
+                    if yanit < 1 or yanit > 5:
+                        raise ValueError("Yanıt 1 ile 5 arasında olmalıdır.")
+                    if i in ters_sorular:
+                        yanit = self.ters_puanlama(yanit)
+                    puanlar.append(yanit)
+                    break
+                except ValueError as e:
+                    print(f"Hata: {e}. Lütfen geçerli bir yanıt girin.")
         return sum(puanlar)
 
     def puanlama(self):
