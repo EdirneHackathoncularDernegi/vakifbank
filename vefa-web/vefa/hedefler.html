@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yatırım Önerileri - AsiFin</title>
+    <meta name="keywords" content="VEFA, Vizyon, Empati, Fayda ve Anlayış">
+    <meta name="description" content="Matiricie - Çalışanlarınızı Destekleyin, Verimliliği Artırın.">
+    <meta name="author" content="AsiFin">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            background-color: #0c0f38;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: #fff;
+            margin-right: 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #0c0f38;
+            padding: 10px 0;
+            text-align: center;
+            color: #b7b7b7;
+        }
+
+        h2 {
+            color: #fff;
+        }
+
+        h1 {
+            color: #0c0f38;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input[type="text"], input[type="radio"] {
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #0c0f38;
+            color: #fdd430;
+        }
+
+        td {
+            background-color: #f4f4f4;
+        }
+
+        input[type="submit"] {
+            background-color: #0c0f38;
+            color: #fdd430;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e5c20c;
+        }
+
+        input[type="checkbox"], input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        label[for="onay"] {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            form {
+                padding: 20px;
+            }
+
+            table {
+                font-size: 12px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+        }
+
+        
+    </style>
+</head>
+<body class="main-layout">
+    <header>
+        <div class="header">
+           <div class="container">
+              <div class="row">
+                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 logo_section">
+                    <div class="full">
+                       <div class="center-desk">
+                          <div class="logo">
+                             <a href="index.html">
+                                <img src="images/matiricie.png" alt="Logo" style="max-width: 250px; max-height: 100px;" />
+                             </a>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                    <nav class="navigation navbar navbar-expand-md navbar-dark">
+                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarsExample04">
+                          <ul class="navbar-nav mr-auto">
+                             <li class="nav-item active"><a class="nav-link" href="dashboard.html">Anasayfa</a></li>
+                             <li class="nav-item"><a class="nav-link" href="portfoy.html">Portföy Durumu</a></li>
+                             <li class="nav-item"><a class="nav-link" href="yatirim.html">Yatırım Önerileri</a></li>
+                             <li class="nav-item"><a class="nav-link" href="piyasa.html">Piyasa Verileri</a></li>
+                             <li class="nav-item"><a class="nav-link" href="finans.html">Finansal Haberler</a></li>
+                             <li class="nav-item"><a class="nav-link" href="premium.html">Premium</a></li>
+                             <li class="nav-item" ><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                             <li class="nav-item"><a class="nav-link" href="index.html">Çıkış</a></li>
+                          </ul>
+                       </div>
+                    </nav>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </header>
+     <br><br>
+    <div class="container">
+        <h1>Hedef Belirleme Testi</h1>
+    
+        <p>
+            Bu anketin amacı size sunulacak ürün veya hizmetin risklerini anlayabilecek bilgi ve tecrübeye sahip olup olmadığınızın anlaşılması, böylece size daha uygun hizmet sunulmasının sağlanmasıdır. Bu konuda bir değerlendirme yapılabilmesi sizden gerekli bilgilerin temin edilmesine bağlıdır.
+        </p>
+        
+        <p>
+            Uygunluk testi için bilgi vermezseniz veya eksik ya da güncel olmayan bilgi verirseniz, hangi ürün ya da hizmetlerin size uygun olduğu tespit edilemeyecektir. Bu nedenle, aşağıdaki sorulara yanıt vermeniz, doğru, tam ve güncel bilgileri vermeniz, size uygun ürün ve hizmetlerin tespit edilebilmesi açısından önemlidir.
+        </p>
+    
+        <form id="anketForm" method="post">
+            <label for="musteriAdiSoyadi">Müşterinin Adı Soyadı / Ticari Unvanı:</label>
+            <input type="text" id="musteriAdiSoyadi" name="musteriAdiSoyadi"><br>
+    
+            <label>1- Yaşınız:</label><br>
+            <input type="radio" name="yas" value="0"> 18-30 Yaş<br>
+            <input type="radio" name="yas" value="0"> 34-50 Yaş<br>
+            <input type="radio" name="yas" value="0"> 51-65 Yaş<br>
+            <input type="radio" name="yas" value="0"> 66 ve üzeri<br>
+            <input type="radio" name="yas" value="0"> Kurumsal Müşteri<br>
+    
+            <label>2- Eğitim Durumunuz:</label><br>
+            <input type="radio" name="egitim" value="0"> İlköğretim / Ortaöğretim<br>
+            <input type="radio" name="egitim" value="0"> Lise<br>
+            <input type="radio" name="egitim" value="0"> Lisans ve Üstü<br>
+            <input type="radio" name="egitim" value="0"> Kurumsal Müşteri<br>
+    
+            <label for="meslek">3. Mesleğiniz:</label><br>
+            <input type="text" id="meslek" name="meslek"><br><br>
+    
+            <label>4- Yatırımlarınızı ne kadar süreyle sermaye piyasalarında değerlendirmeyi düşünürsünüz?</label><br>
+            <input type="radio" name="yatirimSuresi" value="0"> Kısa Vadeli (0-6 ay)<br>
+            <input type="radio" name="yatirimSuresi" value="0"> Orta Vadeli (6-12 ay)<br>
+            <input type="radio" name="yatirimSuresi" value="0"> Uzun Vadeli (1-3 yıl)<br>
+            <input type="radio" name="yatirimSuresi" value="0"> Daha Uzun Vadeli (3 yıldan uzun)<br>
+    
+            <label>5- Risk ve getiri tercihiniz nedir?</label>
+            <input type="radio" name="riskTercihi" value="0"> Olabildiğince riskten kaçınır, güvenli yatırım araçlarını tercih eder, az ama düzenli bir getiri sağlamayı tercih ederim. (Anaparam aynen korunsun)<br>
+            <input type="radio" name="riskTercihi" value="0"> Enflasyonun üzerinde getiri beklentisiyle, yatırımımda düşük riskli ürünlere yatırım yapabilirim. (Anaparadan çok az bir miktar kaybetmeyi göze alabilirim)<br>
+            <input type="radio" name="riskTercihi" value="0"> Genel olarak orta riskli ürünleri tercih etmekle beraber, uzun vadede toplam getirimi artırmak amacıyla, riskli ürünlere makul ölçüde yatırım yapabilirim. (Anaparadan bir miktar kaybetmeyi göze alabilirim)<br>
+            <input type="radio" name="riskTercihi" value="0"> Yüksek getiri beklentisiyle, yüksek riskli ürünlere yatırım yapabilirim (Anaparadan kaybetmeyi göze alabilirim)<br>
+            <input type="radio" name="riskTercihi" value="0"> Çok yüksek getiri isterim ve çok yüksek riskli ürünlere yatırım yapabilirim. Gelişmiş yatırım ürünlerinin riskleri konusunda bilgiliyim ve bu ürünlere yatırım yapabilirim. (Anaparayı tamamen kaybetmeyi göze alabilirim)<br><br>
+    
+            <label>6- Hangi ürünlerde daha önce yatırım yaptınız, ne sıklıkla yatırım yaptınız ve bu ürünlerdeki geçmiş 1 yıllık dönemdeki işlem hacminiz ne kadar?</label>
+            <table>
+                <tr>
+                    <th></th>
+                    <th colspan="3">Ürün Bilgisi</th>
+                    <th colspan="3">İşlem Sıklığı</th>
+                    <th colspan="3">Hacim Bilgisi (TL)</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Ürün Hakkında Bilgim Yok</td>
+                    <td>Ürün Hakkında Bilgim Kısıtlı</td>
+                    <td>Ürün Hakkında Yeterince Bilgim Var</td>
+                    <td>Nadiren (Yılda Birkaç Defa)</td>
+                    <td>Arasıra (Ayda Birkaç Defa)</td>
+                    <td>Sıklıkla Haftada Birkaç Defa</td>
+                    <td>1 - 50.000</td>
+                    <td>50.001 - 500.000</td>
+                    <td>500.001 ve üzeri</td>
+                </tr>
+                <tr>
+                    <td>Çok Düşük Riskli (Repo-Ters Repo, BPP, Yatırımcı Bilgi Formunda Risk Değeri 1 olan yatırım fonları, vb.)</td>
+                    <td><input type="checkbox" name="riskliUrun1" value="0" class="group1"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="1" class="group1"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="3" class="group1"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="1" class="group2"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="3" class="group2"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="5" class="group2"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="1" class="group3"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="3" class="group3"></td>
+                    <td><input type="checkbox" name="riskliUrun1" value="5" class="group3"></td>
+                </tr>
+                <tr>
+                    <td>Düşük Riskli (Hazine Bonosu, Devlet Tahvili, Hazine Kira Sertifikaları, Yatırımcı Bilgi Formunda Risk Değeri 2 ve 3 olan yatırım fonları, vb.)</td>
+                    <td><input type="checkbox" name="riskliUrun2" value="0" class="group4"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="2" class="group4"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="4" class="group4"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="2" class="group5"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="4" class="group5"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="6" class="group5"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="2" class="group6"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="4" class="group6"></td>
+                    <td><input type="checkbox" name="riskliUrun2" value="6" class="group6"></td>
+                </tr>
+                <tr>
+                    <td>Orta Riskli (Ortaklık Payı, Eurobond, Dövizli Tahviller, Özel Sektör Borçlanma Araçları, Kira Sertifikaları, Yatırımcı Bilgi Formunda Risk Değeri 4 olan yatırım fonları, vb.)</td>
+                    <td><input type="checkbox" name="riskliUrun3" value="0" class="group7"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="3" class="group7"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="5" class="group7"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="3" class="group8"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="5" class="group8"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="7" class="group8"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="3" class="group9"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="5" class="group9"></td>
+                    <td><input type="checkbox" name="riskliUrun3" value="7" class="group9"></td>
+                </tr>
+                <tr>
+                    <td>Yüksek Riskli (Türev İşlemler (Vadeli İşlem ve Opsiyon Piyasasında), Varant, Yatırım Kuruluşu Sertifikası, Yatırımcı Bilgi Formunda Risk Değeri 5 ve 6 olan yatırım fonları, vb.)</td>
+                    <td><input type="checkbox" name="riskliUrun4" value="0" class="group10"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="1" class="group10"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="6" class="group10"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="1" class="group11"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="6" class="group11"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="8" class="group11"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="4" class="group12"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="6" class="group12"></td>
+                    <td><input type="checkbox" name="riskliUrun4" value="8" class="group12"></td>
+                </tr>
+                <tr>
+                    <td>Çok Yüksek Riskli (Tezgahüstü Türev İşlemler, Yapılandırılmış Borçlanma Araçları, Kaldıraçlı Alım Satım İşlemleri - FX, Yatırımcı Bilgi Formunda Risk Değeri 7 olan yatırım fonları vb.)</td>
+                    <td><input type="checkbox" name="riskliUrun5" value="0" class="group13"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="5" class="group13"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="7" class="group13"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="5" class="group14"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="7" class="group14"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="9" class="group14"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="5" class="group15"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="7" class="group15"></td>
+                    <td><input type="checkbox" name="riskliUrun5" value="9" class="group15"></td>
+                </tr>
+                    
+            </table>
+    
+            <div style="display: flex; align-items: center;">
+                <input type="checkbox" value="0" id="onay" required>
+                <label for="onay" style="margin-left: 10px;">Yukarıda verdiğim bilgilerin doğru olduğunu, bu bilgiler çerçevesinde yapılacak değerlendirme sonucunda, kurumunuzca uygun olduğu tespit edilecek ürün ve/veya hizmetleri tercih etmemin faydalı olacağı konusunda bilgilendirildiğimi beyan ederim.</label>
+            </div>
+            
+            <input type="submit" value="Gönder">
+        </form>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const anketForm = document.getElementById("anketForm");
+                
+                anketForm.addEventListener("submit", function(event) {
+                    event.preventDefault();
+                    
+                    const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+                    let totalPoints = 0;
+                    
+                    checkboxes.forEach(function(checkbox) {
+                        totalPoints += parseInt(checkbox.value);
+                    });
+                    
+                    if (totalPoints >= 0 && totalPoints <= 19) {
+                        window.location.href = "cok_dusuk.html";
+                    } else if (totalPoints >= 20 && totalPoints <= 38) {
+                        window.location.href = "dusuk.html";
+                    } else if (totalPoints >= 39 && totalPoints <= 57) {
+                        window.location.href = "orta.html";
+                    } else if (totalPoints >= 58 && totalPoints <= 76) {
+                        window.location.href = "yuksek.html";
+                    } else if (totalPoints >= 77 && totalPoints <= 95) {
+                        window.location.href = "cok_yuksek.html";
+                    }
+                });
+            });
+    
+            const groups = ['group1', 'group2', 'group3', 'group4', 'group5', 'group6', 'group7', 'group8', 'group9', 'group10', 'group11', 'group12', 'group13', 'group14', 'group15'];
+    
+    groups.forEach(group => {
+        const checkboxes = document.querySelectorAll(`.${group}`);
+        
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+                if (this.checked) {
+                    checkboxes.forEach(otherCheckbox => {
+                        if (otherCheckbox !== this) {
+                            otherCheckbox.checked = false;
+                        }
+                    });
+                }
+            });
+        });
+    });
+        </script>
+    </div>
+</center>
+    <footer>
+        &copy; 2024 AsiFin. Tüm Hakları Saklıdır.
+    </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
