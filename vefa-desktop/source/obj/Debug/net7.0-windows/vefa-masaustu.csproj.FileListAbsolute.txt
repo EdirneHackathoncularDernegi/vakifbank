@@ -1,0 +1,16 @@
+C:\Users\HIZMALI\Downloads\vefa-masaustu\bin\Debug\net7.0-windows\vefa-masaustu.exe
+C:\Users\HIZMALI\Downloads\vefa-masaustu\bin\Debug\net7.0-windows\vefa-masaustu.deps.json
+C:\Users\HIZMALI\Downloads\vefa-masaustu\bin\Debug\net7.0-windows\vefa-masaustu.runtimeconfig.json
+C:\Users\HIZMALI\Downloads\vefa-masaustu\bin\Debug\net7.0-windows\vefa-masaustu.dll
+C:\Users\HIZMALI\Downloads\vefa-masaustu\bin\Debug\net7.0-windows\vefa-masaustu.pdb
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.Resources.AppResources.resources
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.csproj.GenerateResource.cache
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.AssemblyInfoInputs.cache
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.AssemblyInfo.cs
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.csproj.CoreCompileInputs.cache
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.dll
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\refint\vefa-masaustu.dll
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.pdb
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\vefa-masaustu.genruntimeconfig.cache
+C:\Users\HIZMALI\Downloads\vefa-masaustu\obj\Debug\net7.0-windows\ref\vefa-masaustu.dll
