@@ -5,10 +5,6 @@ import os
 
 app = Flask(__name__)
 
-# Spotify Developer bilgileri
-CLIENT_ID = "41b6b6d08f7f4a878a7d1bdeba94debf"
-CLIENT_SECRET = "8b6bb1ee60cd41ff95e7f824de6c5ff3"
-REDIRECT_URI = "http://localhost:5000/callback"
 
 # Spotify yetkilendirme URL'si
 SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"
