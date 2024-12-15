@@ -2,7 +2,6 @@ import requests
 import json
 
 # Spotify API Access Token (OAuth üzerinden alınmış olmalı)
-ACCESS_TOKEN = "BQChrKFVHTh5apV8JXmTu4S9wG88UrSNYxms0od8B0DEDr-7wW4kYwlGKY1rb-eg_gYwrzoT97m2lZXfUiX2T0Y6y6IRhIjvEV-i0qbf8QwyhzErRwF77tZZAjjB4m1B0Lw4yVY83SwZDFWmVWzGtjfaXQM_VPfcki1Miyk5UaqKJq6HIfboxkr1OhtPIW4u9aku2iE8MJ8heo7qKnv9ew"
 
 # 1. Kullanıcının en çok dinlediği sanatçıları getir
 def get_top_artists():
